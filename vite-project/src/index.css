@@ -1,43 +1,91 @@
-footer{
-  position:fixed;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(30, 29, 29, 0.5);
-  border: 2px solid rgba(27, 25, 25, 0.11);
-  border-radius: 5px;
-  box-shadow: 0px 2px 2px 5px rgba(0, 0, 0, 0.212);
-}
 body{
-  margin-bottom: 1000px;
+  background-color: oklch(0.915861 0.006811 53.4405);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
+}
+.header-container{
+display: flex;
+border: 1px solid rgba(0, 0, 0, 0.073);
+flex-direction:row;
+justify-content: space-between;
+align-items: center;
+margin: 10px 10px;
+border-radius: 10px;
+padding: 20px 20px;
+box-shadow: 0px 2px 30px 5px rgba(0, 0, 0, 0.034);
+background-color: rgba(234, 245, 255, 0.486);
+}
+.header-left{
+
+}
+.header-left .theme-text{
+color: black;
+font-size: 20px;
+font-weight: 600;
+opacity: 0.65;
+}
+.header-left .theme-name{
+font-size: 14px;
+opacity: 0.5;
+margin-top: 2px;
+}
+.header-right{
+padding: 0px 16px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 48px;
 }
 
-header{
-    top: 0px;
-  right: 0px;
-  left: 0px;
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-   background-color: rgba(30, 29, 29, 0.5);
-  border: 2px solid rgba(27, 25, 25, 0.11);
-  border-radius: 5px;
-  box-shadow: 0px 2px 2px 5px rgba(0, 0, 0, 0.212);
+.header-right-images{
+  height: 20px;
+  opacity: 0.5;
 }
-.navItems{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top:20px ;
+
+
+
+
+
+
+.NameCard-Container{
+height:390px;
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+display: flex;
+border: 1px solid rgba(0, 0, 0, 0.073);
+flex-direction:column;
+justify-content: space-between;
+align-items: center;
+margin: 10px 10px;
+border-radius: 10px;
+padding: 20px 20px;
+box-shadow: 0px 2px 30px 5px rgba(0, 0, 0, 0.034);
+background-color: rgba(234, 245, 255, 0.486);
 }
-.navItems div{
-  transition: all 0.2s; 
-  margin: 7px;
+.name{
+font-weight: 700;
+font-size:24px;
+opacity: 0.6;
 }
-.navItems div:hover{
-  transform: scale(1.03);
-  cursor: pointer;
+.skills{
+  text-align: center;
+  opacity: 0.6;
 }
+.resume-button{
+  margin-top: 20px;
+padding: 8px 14px;
+border-radius: 25px;
+border: 1.3px solid rgba(0, 0, 0, 0.616);
+font-size: 12px;
+opacity: 0.5;
+font-weight: 500;
+box-shadow: 0px 2px 30px 5px rgba(0, 0, 0, 0.062);
+
+}
+.profile-image{
+  height: 128px;
+  width: 128px;
+  object-fit: cover;
+  border-radius:50%;
+  padding: 2px;
+  border: 3px solid rgba(58, 122, 172, 0.742);
+}
+
