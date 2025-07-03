@@ -1,8 +1,10 @@
-import Counter from './Components/Counter.jsx'
+//import Counter from './Components/Counter.jsx'
+import CarInfo from './Components/Car.jsx'
+
 function App() 
 {
 
-  return (<Counter/>);
+  return (<CarInfo/>);
 }
 
 export default App

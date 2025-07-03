@@ -6,14 +6,14 @@ export default function Counter()
 
   const Increment = () =>
   {
-    return setCount(count+1);
+    setCount(count+1);
   }
   const Decrement = () =>{
-    return setCount(count-1);
+    setCount(count-1);
   }
 
   const Reset = () =>{
-    return setCount(0);
+    setCount(0);
   }
 
 
