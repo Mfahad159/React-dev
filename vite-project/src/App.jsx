@@ -1,8 +1,8 @@
-import Greeting from './Components/Greeting.jsx'
+import Counter from './Components/Counter.jsx'
 function App() 
 {
 
-  return (<Greeting/>);
+  return (<Counter/>);
 }
 
 export default App
