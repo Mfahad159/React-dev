@@ -1,4 +1,4 @@
-button{
+/* button{
   font-size: 40px;
   height: 70px;
   width: 180px;
@@ -42,4 +42,101 @@ button:active{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+} */
+
+
+
+/*This is CSS FOR TODO APP*/
+
+.main-container{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(153, 208, 24);
+  margin:10px;
+  padding: 7px;
+  border-radius: 4px;
 }
+.title{
+  font-weight: 700;
+  text-align: center;
+}
+.input-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.add-button{
+  transition: all 0.3s;
+  padding: 5px 15px;
+  margin-left: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: aliceblue;
+  border: 1px solid rgba(0, 0, 255, 0.806);;
+  color: rgba(0, 0, 255, 0.806);
+}
+.add-button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 0, 255, 0.806);;
+}
+.input-box{
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  border: 1px solid rgba(0, 0, 255, 0.237);
+  color: rgba(0, 0, 255, 0.806);
+}
+.input-box:focus{
+  outline: none;
+  border: 1px solid rgb(0, 0, 255);
+  
+}
+.all-tasks{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 40px;
+border-left: 3px solid rgb(66, 17, 243);
+padding: 4px 10px;
+}
+.task-left{
+  border-radius: 4px;
+  padding: 2px 10px;
+  border: 1px solid rgba(255, 166, 0, 0.747);
+}
+.task-right{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.del-button{
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.3s;
+  border: 1px solid rgba(185, 29, 29, 0.9);  color: rgba(185, 29, 29, 0.9);
+}
+.del-button:hover{
+  cursor: pointer;
+  color: white;
+  background-color:rgba(185, 29, 29, 0.9); ;
+}
+.date{
+  font-style: italic;
+  opacity: 0.7;
+  font-size: 13px;
+  margin-top: 5px;
+  color: rgb(138, 138, 42);
+}
+
+
+
+
+
+

@@ -1,10 +1,11 @@
 //import Counter from './Components/Counter.jsx'
-import CarInfo from './Components/Car.jsx'
+//import CarInfo from './Components/Car.jsx'
+import TodoApp from "./Components/TodoApp";
 
 function App() 
 {
 
-  return (<CarInfo/>);
+  return (<TodoApp/>);
 }
 
 export default App
